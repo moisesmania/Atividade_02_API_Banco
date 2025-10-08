@@ -1,4 +1,30 @@
 README.md completo e pronto, formatado em Markdown:
+# API Banco - Rotas GET
+
+Na sua API você possui apenas **2 rotas GET** para consulta:
+
+---
+
+### 1️⃣ Listar Correntistas
+- **Método:** GET  
+- **URL:** `/correntistas`  
+- **Descrição:** Retorna todos os correntistas cadastrados no banco.  
+
+**Exemplo de resposta:**
+```json
+[
+  {
+    "CorrentistaID": 1,
+    "NomeCorrentista": "Moisés",
+    "Saldo": 1000.00
+  },
+  {
+    "CorrentistaID": 2,
+    "NomeCorrentista": "João",
+    "Saldo": 500.00
+  }
+]
+
 
 # API de Movimentações Bancárias
 
